@@ -1,5 +1,5 @@
 # 사용방법
-[Javadoc 보기](https://perfectacle.github.io/time-machine/docs/index.html)
+[Javadoc 보기](https://perfectacle.github.io/time-machine/docs/javadoc/)
 
 ## 설치
 Maven을 사용하는 경우

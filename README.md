@@ -1,5 +1,5 @@
 # How to use
-[View Javadoc](https://perfectacle.github.io/time-machine/docs/index.html)
+[View Javadoc](https://perfectacle.github.io/time-machine/docs/javadoc/)
 
 ## Installation
 in Maven
