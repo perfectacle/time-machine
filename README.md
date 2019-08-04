@@ -1,4 +1,4 @@
-# Stop to use Java 8 Date/Time API of now() method
+# Stop using Java 8 Date/Time API of now() method
 Suppose you have a code that uses the now() method in the Date/Time API of Java 8.
 
 ```java
