@@ -6,7 +6,7 @@
 
     <groupId>com.github.perfectacle</groupId>
     <artifactId>time-machine</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Time Machine</name>
@@ -32,7 +32,7 @@
         <connection>scm:git:git://github.com/perfectacle/time-machine.git</connection>
         <developerConnection>scm:git:git@github.com:perfectacle/time-machine.git</developerConnection>
         <url>https://github.com/perfectacle/time-machine</url>
-        <tag>HEAD</tag>
+        <tag>v1.0.0</tag>
     </scm>
 
     <distributionManagement>
