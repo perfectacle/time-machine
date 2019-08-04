@@ -13,9 +13,7 @@ in Maven
 
 in Gradle
 ```groovy
-dependencies {
-    implementation 'com.github.perfectacle:time-machine:1.0.0'
-}
+implementation 'com.github.perfectacle:time-machine:1.0.0'
 ```
 
 # Stop using Java 8 Date/Time API of now() method
