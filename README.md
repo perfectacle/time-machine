@@ -83,7 +83,7 @@ public class SomeClassTest {
 ```java
 public class SomeClassTest {
     @Test
-    void whenNotFixed() {
+    void whenNotTraveled() {
         // Reset to time machine to avoid being affected by other tests.
         TimeMachine.reset();
     
@@ -102,4 +102,4 @@ public class SomeClassTest {
 ```
 
 ## How to use
-[Javadoc](./docs/index.html)
+[Javadoc](https://perfectacle.github.io/time-machine/docs/index.html)

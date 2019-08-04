@@ -29,7 +29,7 @@ class TimeMachineTest {
     }
 
     @Test
-    void whenNotFixed() {
+    void whenNotTraveled() {
         // Reset to time machine to avoid being affected by other tests.
         TimeMachine.reset();
 
