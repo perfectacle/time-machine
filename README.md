@@ -1,3 +1,23 @@
+# How to use
+[View Javadoc](https://perfectacle.github.io/time-machine/docs/index.html)
+
+## Installation
+in Maven
+```xml
+<dependency>
+	<groupId>com.github.perfectacle</groupId>
+	<artifactId>time-machine</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
+
+in Gradle
+```groovy
+dependencies {
+    implementation 'com.github.perfectacle:time-machine:1.0.0'
+}
+```
+
 # Stop using Java 8 Date/Time API of now() method
 Suppose you have a code that uses the now() method in the Date/Time API of Java 8.
 
@@ -100,6 +120,3 @@ public class SomeClassTest {
     }
 }
 ```
-
-## How to use
-[Javadoc](https://perfectacle.github.io/time-machine/docs/index.html)
