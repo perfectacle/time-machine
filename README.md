@@ -16,6 +16,9 @@ in Gradle
 implementation 'com.github.perfectacle:time-machine:1.0.0'
 ```
 
+## Translations
+* [Korean](https://perfectacle.github.io/time-machine/docs/readme/KOREAN)
+
 # Stop using Java 8 Date/Time API of now() method
 Suppose you have a code that uses the now() method in the Date/Time API of Java 8.
 
@@ -69,7 +72,7 @@ public class SomeClassTest {
 ```
 
 # Use Time Machine
-If the public method internally calls dozens of private methods, would you pass the current time to the parameter each time?
+If the public method internally calls dozens of private methods, would you pass the current time to the parameter each time?  
 To eliminate this inefficiency, you should use Time Machine.
 
 ## Use various kinds of now method
