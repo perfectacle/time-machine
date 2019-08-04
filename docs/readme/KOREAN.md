@@ -7,13 +7,13 @@ Maven을 사용하는 경우
 <dependency>
 	<groupId>com.github.perfectacle</groupId>
 	<artifactId>time-machine</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 </dependency>
 ```
 
 Gradle을 사용하는 경우
 ```groovy
-implementation 'com.github.perfectacle:time-machine:1.0.0'
+implementation com.github.perfectacle
 ```
 
 ## 번역 문서

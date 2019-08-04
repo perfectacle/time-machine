@@ -2,4 +2,4 @@
 *.iml
 out
 build
-*.releaseBackup
+gradle.properties

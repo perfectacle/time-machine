@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.perfectacle</groupId>
+    <groupId>com.github.com.github.com.github.perfectacle</groupId>
     <artifactId>time-machine</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Time Machine</name>
     <description>Time travel at the time with various kinds of Java 8 Date/Time API</description>
-    <url>https://github.com/perfectacle/time-machine</url>
+    <url>https://github.com/com.github.com.github.perfectacle/time-machine</url>
 
     <licenses>
         <license>
@@ -21,14 +21,14 @@
 
     <developers>
         <developer>
-            <name>perfectacle</name>
-            <email>perfectacle@gmail.com</email>
+            <name>com.github.com.github.perfectacle</name>
+            <email>com.github.com.github.perfectacle@gmail.com</email>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/perfectacle/time-machine.git</connection>
-        <developerConnection>scm:git:git@github.com:perfectacle/time-machine.git</developerConnection>
+        <connection>scm:git:git://github.com/com.github.com.github.perfectacle/time-machine.git</connection>
+        <developerConnection>scm:git:git@github.com:com.github.com.github.perfectacle/time-machine.git</developerConnection>
         <url>https://github.com/perfectacle/time-machine</url>
         <tag>v1.0.0</tag>
     </scm>
@@ -47,7 +47,7 @@
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/perfectacle/time-machine/issues</url>
+        <url>https://github.com/com.github.com.github.perfectacle/time-machine/issues</url>
     </issueManagement>
 
     <properties>

@@ -8,31 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TimeMachineTest {
     @Test
-    void alwaysPM() {
-        final LocalTime pm = LocalTime.of(12, 0, 0, 0);
-        TimeMachine.travelAt(pm.plusNanos(1));
-        assertTrue(TimeMachine.localTimeOfNow().isAfter(pm));
-    }
-
-    @Test
-    void alwaysChristmas() {
-        final LocalDate christmas = LocalDate.of(LocalDate.now().getYear(), 12, 25);
-        TimeMachine.travelAt(christmas);
-        assertTrue(TimeMachine.localDateOfNow().isEqual(christmas));
-    }
-
-    @Test
-    void alwaysMyBirthdayInSouthKorea() {
-        final ZonedDateTime birthday = ZonedDateTime.of(1993, 5, 30, 0, 0, 0, 0, ZoneId.of("Asia/Seoul"));
-        TimeMachine.travelAt(birthday);
-        assertTrue(TimeMachine.zonedDateTimeOfNow().isEqual(birthday));
-    }
-
-    @Test
-    void whenNotTraveled() {
-        // Reset to time machine to avoid being affected by other tests.
-        TimeMachine.reset();
-
+    void now() {
         final Instant nowOfInstant = Instant.now();
         final Instant nowOfInstantWithTimeMachine = TimeMachine.instantOfNow();
 

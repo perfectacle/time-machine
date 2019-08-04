@@ -1,0 +1,5 @@
+rootProject.name = 'time-machine'
+include 'machine'
+include 'time-traveler'
+include 'test-module'
+

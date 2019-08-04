@@ -1,11 +1,11 @@
 # How to use
-[View Javadoc](https://perfectacle.github.io/time-machine/docs/javadoc/)
+[View Javadoc](https://com.github.com.github.perfectacle.github.io/time-machine/docs/javadoc/)
 
 ## Installation
 in Maven
 ```xml
 <dependency>
-	<groupId>com.github.perfectacle</groupId>
+	<groupId>com.github.com.github.com.github.perfectacle</groupId>
 	<artifactId>time-machine</artifactId>
 	<version>1.0.0</version>
 </dependency>
@@ -13,11 +13,11 @@ in Maven
 
 in Gradle
 ```groovy
-implementation 'com.github.perfectacle:time-machine:1.0.0'
+implementation 'com.github.com.github.com.github.perfectacle:time-machine:1.0.0'
 ```
 
 ## Translations
-* [Korean](https://perfectacle.github.io/time-machine/docs/readme/KOREAN)
+* [Korean](https://com.github.com.github.perfectacle.github.io/time-machine/docs/readme/KOREAN)
 
 # Stop using Java 8 Date/Time API of now() method
 Suppose you have a code that uses the now() method in the Date/Time API of Java 8.
@@ -94,7 +94,7 @@ public class SomeClassTest {
     // This test passed in always
     @Test
     void someMethod() {
-        TimeMachine.travelAt(LocalTime.of(13, 0, 0));
+        TimeTraveler.travelAt(LocalTime.of(13, 0, 0));
         assertTrue(SomeClass.someMethod());
     }
 }
@@ -103,11 +103,14 @@ public class SomeClassTest {
 ## Reset of now for real world
 ```java
 public class SomeClassTest {
+    @BeforeEach
+    void setup() {
+        // Reset time to avoid being affected by other tests.
+        TimeTraveler.reset();
+    }
+    
     @Test
     void whenNotTraveled() {
-        // Reset to time machine to avoid being affected by other tests.
-        TimeMachine.reset();
-    
         final Instant nowOfInstant = Instant.now();
         final Instant nowOfInstantWithTimeMachine = TimeMachine.nowOfInstant();
     
