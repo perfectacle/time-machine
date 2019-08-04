@@ -1,6 +1,4 @@
 .idea
-.gradle
 *.iml
 out
-generated/
 build
